@@ -14,7 +14,7 @@
           - curl
           - gnupg
           # - lsb-release
-          - software-properties-common
+          # - software-properties-common
         state: present
         update_cache: true
     - name: Add Docker's GPG key to system

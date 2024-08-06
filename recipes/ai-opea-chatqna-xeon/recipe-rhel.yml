@@ -9,7 +9,7 @@
     - name: Install pre-requisite packages
       ansible.builtin.package:
         pkg:
-          - apt-transport-https
+          # - apt-transport-https
           - ca-certificates
           - curl
           - gnupg
